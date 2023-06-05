@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Apllication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Job Application (Web)</h1>
+
+
+        <form action="#">
+            <div class="form-cont">
+                <div class="cont">
+                    <div class="contl">
+                        <label for="fname">
+                            First Name
+                        </label>
+                        <input type="text" name="Fname" id="fname" class="input">
+                    </div>
+                    <div class="contr">
+                        <label for="lname">
+                            Last Name
+                        </label>
+                        <input type="text" name="Lname" id="lname" class="input">
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="contl">
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="email" name="email" id="email" class="input">
+                    </div>
+                    <div class="contr">
+                        <label for="job-role">
+                            Job Role
+                        </label>
+                        <select name="job-role" id="job-role" class="input">
+                            <option value="">Select Job Role</option>
+                            <option value="junior-dev">Junior Developer</option>
+                            <option value="senior-dev">Senior Developer</option>
+                            <option value="android-dev">Android Developer</option>
+                            <option value="graphic-des">Graphic Designer</option>
+                            <option value="content-writer">Content Writer</option>
+                            <option value="video-editor">Video Editor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="cont1 cont">
+                    <label for="address" id="add-label">
+                        Address
+                    </label>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </div>
+                <div class="cont">
+                    <div class="contl">
+                        <label for="city">
+                            City
+                        </label>
+                        <input type="text" name="city" id="city" class="input">
+                    </div>
+                    <div class="contr">
+                        <label for="pincode">
+                            Pincode
+                        </label>
+                        <input type="text" name="pincode" id="pincode" class="input">
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="contl">
+                        <label for="start-date">
+                            Start Date
+                        </label>
+                        <input type="date" name="start-date" id="start-date" class="input">
+                    </div>
+                    <div class="contr">
+                        <label for="cv">
+                            Upload Your CV
+                        </label>
+                        <input type="file" name="cv" id="cv" class="input">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="btn">
+                Apply Now
+            </div>
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .wrapper {
+      background: #161619;
+      max-width: 100vw;
+      min-height: 100vh;
+      overflow-x: hidden;
+  }
+
+  .container {
+      height: 100vh;
+      background: url(bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow-x: hidden;
+
+  }
+
+  .head {
+      width: 900px;
+      margin: 0 auto;
+      padding: 5rem 0;
+  }
+
+  h2 {
+      color: white;
+      font-family: 'Roboto';
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 84px;
+      letter-spacing: 0em;
+      text-align: left;
+
+  }
+
+  h2 span {
+      color: white;
+      font-family: 'Roboto';
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+
+  .work {
+      width: 100vw;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .work h2 {
+      font-family: 'Roboto';
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 84px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: white;
+  }
+
+  .work span {
+      font-family: 'Roboto';
+      font-size: 144px;
+      font-weight: 400;
+      line-height: 84px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: white;
+  }
+
+  .cards {
+      background-color: white;
+      height: 650px;
+      display: flex;
+
+      justify-content: space-evenly;
+  }
+
+  .card {
+      margin-top: 125px;
+      width: 320px;
+      height: 450px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 5px grey;
+  }
+
+  .card img {
+      max-width: 100%;
+      height: 192px;
+  }
+
+  h4 {
+      padding-top: 1rem;
+      text-align: center;
+      font-family: 'Roboto';
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+
+  }
+
+  p {
+      margin: 16px 10px 0 20px;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 14px;
+      letter-spacing: 0em;
+      text-align: left;
+
+  }
+
+  .about-us {
+      height: 380px;
+      display: flex;
+  }
+
+  .contact {
+      width: 50%;
+      background: #515603;
+      height: 100%;
+  }
+
+  .about {
+      width: 50%;
+      background: #722300;
+      height: 100%;
+  }
+
+  h3 {
+      color: white;
+      margin: 40px 0 15px 75px;
+      font-family: 'Roboto';
+      font-size: 64px;
+      font-weight: 500;
+      line-height: 75px;
+      letter-spacing: 0em;
+      text-align: left;
+
+  }
+
+  .details {
+      color: white;
+      margin: 40px 150px 15px 75px;
+      font-family: 'Roboto';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+
+
+  }

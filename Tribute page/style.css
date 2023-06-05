@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 13px solid black;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #E5E5FD;
+}
+
+.container {
+    margin: auto;
+    padding-top: 10rem;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.title {
+    align-self: flex-end;
+    padding-bottom: 3.5rem;
+    width: 50%;
+}
+
+
+#name {
+    font-family: 'Inter';
+    font-size: 2.95rem;
+    font-weight: 700;
+}
+
+#years {
+    padding-right: 0.3rem;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: end;
+}
+
+
+.desc {
+    padding: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 6.5rem;
+
+}
+
+#head {
+    font-family: "Inter";
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.text {
+    font-family: "Inter";
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+}
+
+
+#high {
+    font-family: "Inter";
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+}
+
+.bio {
+    padding-top: 2.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h4 {
+    font-family: "Inter";
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    margin-bottom: 1.5rem;
+
+}
+
+.bio-list {
+    padding-left: 1.5rem;
+    font-family: "Inter";
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: left;
+    line-height: 22px;
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5rem 3rem 5rem 0;
+}
+
+a {
+    color: #0A4EFF;
+    text-decoration: none;
+}
