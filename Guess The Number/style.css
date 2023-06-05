@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background: rgb(52, 58, 64);
+}
+
+.navbar-name {
+    color: white;
+    max-height: 100%;
+    margin-left: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.banner {
+    color: #ffd23f;
+    margin: 1rem;
+    font-size: 90px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.form-group {
+    max-width: 400px;
+    /* border: 1px solid black; */
+    margin: 1rem auto;
+    height: 48px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #CED4DA;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-container {
+    height: 4rem;
+    width: 400px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-check {
+    color: white;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #6C757D;
+    background-color: #6C757D;
+}
+
+.btn-restart {
+    height: 3rem;
+    padding: 0.5rem;
+    margin-left: 8px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    background-color: #f8f9fa;
+
+}
+
+.btn-check:hover {
+    cursor: pointer;
+    background-color: #636b72;
+}
+
+.btn-restart:hover {
+    cursor: pointer;
+    background-color: #eef1f2;
+}
+
+/* #number-guess, */
+#result,
+#history {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#result {
+    border: none;
+    margin: 16px auto;
+}
+
+.alert {
+    height: 48px;
+    border-radius: 6px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    text-align: center;
+}
+
+.guess-item {
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #6C757D;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.alert-success {
+    background-color: #d0ead7;
+}
+
+.alert-warning {
+    background-color: #fff1c8;
+}
+
+.alert-alert {
+    background-color: #ed481bac;
+}
+
+/* 
+
+height: 48px;
+border-radius: 6px;
+border: 1px solid #CED4DA;
+padding: 10px;
+color: black;
+font-size: 20px;
+font-weight: 500; */

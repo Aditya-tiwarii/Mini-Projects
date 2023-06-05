@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-select {
+
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+}
