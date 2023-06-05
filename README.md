@@ -23,9 +23,11 @@ Note: Please do not have the project link reference your local forked repository
 
 | Sr No. | Project Name |Author |
 |     :---:      |     :---:      |     :---:      |
-| 1.  | Image Gallery  | Aditya Nath Tiwari    |
-| 2.  | Job Application  | Aditya Nath Tiwari    |
-| 3.  | Landing Page  | Aditya Nath Tiwari    |
-| 4.  | Parallax Website  | Aditya Nath Tiwari    |
-| 5.  | Random Background Color Generator | Aditya Nath Tiwari    |
-| 6.  | Tribute Page  | Aditya Nath Tiwari    |
+| 1.  | Guess The Number  | Aditya Nath Tiwari    |
+| 2.  | Image Gallery  | Aditya Nath Tiwari    |
+| 3.  | Job Application  | Aditya Nath Tiwari    |
+| 4.  | Landing Page  | Aditya Nath Tiwari    |
+| 5.  | Parallax Website  | Aditya Nath Tiwari    |
+| 6.  | Random Background Color Generator | Aditya Nath Tiwari    |
+| 7.  | Sort Movies  | Aditya Nath Tiwari    |
+| 8.  | Tribute Page  | Aditya Nath Tiwari    |
