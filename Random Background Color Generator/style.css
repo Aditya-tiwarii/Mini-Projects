@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
+
+h1 {
+    padding: 1.25rem;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+}
