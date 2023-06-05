@@ -27,4 +27,5 @@ Note: Please do not have the project link reference your local forked repository
 | 2.  | Job Application  | Aditya Nath Tiwari    |
 | 3.  | Landing Page  | Aditya Nath Tiwari    |
 | 4.  | Parallax Website  | Aditya Nath Tiwari    |
-| 5.  | Tribute Page  | Aditya Nath Tiwari    |
+| 5.  | Random Background Color Generator | Aditya Nath Tiwari    |
+| 6.  | Tribute Page  | Aditya Nath Tiwari    |
